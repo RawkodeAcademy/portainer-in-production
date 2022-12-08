@@ -1,6 +1,11 @@
 version: "3.7"
 
 services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "5657:80"
+      
   edgedb:
    image: edgedb/edgedb:latest
    command:
