@@ -5,6 +5,10 @@ services:
     image: nginx:latest
     ports:
       - "5657:80"
+      - 
+
+  httpd:
+    image: httpd:latest
       
   edgedb:
    image: edgedb/edgedb:latest
