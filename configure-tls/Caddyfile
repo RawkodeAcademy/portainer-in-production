@@ -1,0 +1,14 @@
+{
+  email <your-email>
+}
+
+<your hostname> {
+  reverse_proxy {
+    to https://portainer:9443
+
+    transport http {
+      tls
+      tls_insecure_skip_verify
+    }
+  }
+}
