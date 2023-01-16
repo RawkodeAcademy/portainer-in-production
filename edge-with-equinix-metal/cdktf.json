@@ -1,0 +1,15 @@
+{
+  "projectId": "09cb57c7-3621-4f9c-903e-d4ce0e9253a0",
+  "language": "typescript",
+  "app": "pnpm exec ts-node src/index.ts",
+  "sendCrashReports": "false",
+  "terraformProviders": [
+    "equinix/equinix@~> 1.11",
+    "cloudinit@~> 2.2"
+  ],
+  "terraformModules": [],
+  "context": {
+    "excludeStackIdFromLogicalIds": "true",
+    "allowSepCharsInLogicalIds": "true"
+  }
+}
