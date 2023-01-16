@@ -9,8 +9,7 @@ import { Construct } from "constructs";
 import { readFileSync } from "fs";
 
 const projectId = "f4db0408-fa3d-44b4-9547-7a1f15c6d132";
-const edgeKey =
-	"aHR0cDovLzE0NS40MC45NC4xOTo5MDAwfDE0NS40MC45NC4xOTo4MDAwfDBkOjI5OjRjOmZiOjhiOjc1OjRkOmU3OjcxOjdlOjQwOjM0OmZjOmE0OmM3OjM4fDA";
+const edgeKey = "";
 
 class PortainerAdmin extends TerraformStack {
 	private device: MetalDevice;
